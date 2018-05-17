@@ -1,6 +1,6 @@
 ## timeline of multicellularity ##
 
-![complex_multicellularity_plot.png](https://github.com/wrf/oceanography_scripts/blob/master/multicellularity/complex_multicellularity_plot.png)
+![complex_multicellularity_plot.png](https://github.com/wrf/neoproterozoic/blob/master/complex_multicellularity_plot.png)
 
 Bars display the highest confidence intervals (95%) of molecular clock (MC) analyses, where means are indicated by a diamond.
 
@@ -11,9 +11,13 @@ Makes use of data from:
 * Rhodophyte clocks from [Yang 2016](http://dx.doi.org/10.1038/srep21361), [Parfrey 2011](https://doi.org/10.1073/pnas.1110633108), [Berney 2006](http://dx.doi.org/10.1098/rspb.2006.3537)
 * Phaeophyte clock from [Silberfeld 2010](http://dx.doi.org/10.1016/j.ympev.2010.04.020)
 
+## hypothesis of multicellularity
+
+![polyphyletic_animal_origins_v3.png](https://github.com/wrf/neoproterozoic/blob/master/polyphyletic_animal_origins_v3.png)
+
 ## neoproterozoic timeline ##
 
-![neoproterozoic_plot.png](https://github.com/wrf/oceanography_scripts/blob/master/multicellularity/neoproterozoic_plot.png)
+![neoproterozoic_plot.png](https://github.com/wrf/neoproterozoic/blob/master/neoproterozoic_plot.png)
 
 * Combined confidence intervals for molecular clock estimates from the above figure (bars) and dataset means (diamonds) for metazoans and Florideophytes.
 * Within-assemblage diversity, digitized from Figure 5B in [Cohen and Macdonald 2015](https://doi.org/10.1017/pab.2015.25)
