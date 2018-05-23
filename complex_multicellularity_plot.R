@@ -45,7 +45,7 @@ phaeo_body = c(-13)
 
 
 
-pdf(file="~/git/oceanography_scripts/multicellularity/complex_multicellularity_plot.pdf", width=10, height=7)
+pdf(file="~/git/neoproterozoic/complex_multicellularity_plot.pdf", width=10, height=7)
 par(mar=c(4.5,1,1,0.2))
 
 plot(0,0,type='n',xlim=c(-1100,0),ylim=c(0,maxy),axes=FALSE,frame.plot=FALSE, xlab="Time (Ma)", ylab="", cex.lab=1.3)
@@ -68,7 +68,7 @@ legend(-250,maxy, legend=c("Mean MC probability","Earliest fossils"), pch=c(5,17
 
 
 #rect(meta_lca[1],   0.80*maxy, meta_lca[2],   0.94*maxy, col="#6816b599", border=FALSE)
-text(-800, 0.98*maxy, "Animals", col="#6816b5", cex=textsize)
+text(-800, 0.98*maxy, "Metazoans", col="#6816b5", cex=textsize)
 rect(meta_lca_dohrmann[1],   0.80*maxy, meta_lca_dohrmann[2],   0.83*maxy, col="#6816b599", border=FALSE)
 text(-937, 0.81*maxy, "Dohrmann 2017 MC", pos=2)
 rect(meta_lca_dosreis[1],   0.84*maxy, meta_lca_dosreis[2],   0.87*maxy, col="#6816b599", border=FALSE)
