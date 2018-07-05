@@ -1,10 +1,13 @@
 #
 
-meta_lca_dohrmann = c(-937, -787)
+#meta_lca_dohrmann = c(-937, -787) # table S1, cteno-sis
+meta_lca_dohrmann = c(-885, -757) # table S3, pori-sis coelenterata
 meta_lca_dosreis = c(-833,-649)
 meta_lca_erwin = c(-784,-747)
 meta_lca_lartillot = c(-860,-710)
-meta_lca_mids = c(-850, -750, -780, -795)
+#meta_lca_mids = c(-850, -750, -780, -795) #
+meta_lca_mids = c(-814, -750, -780, -795)
+
 
 fungi_lca = c(-750, -550)
 asco_lca = c(-570, -455)
@@ -70,7 +73,7 @@ legend(-250,maxy, legend=c("Mean MC probability","Earliest fossils"), pch=c(5,17
 #rect(meta_lca[1],   0.80*maxy, meta_lca[2],   0.94*maxy, col="#6816b599", border=FALSE)
 text(-800, 0.98*maxy, "Metazoans", col="#6816b5", cex=textsize)
 rect(meta_lca_dohrmann[1],   0.80*maxy, meta_lca_dohrmann[2],   0.83*maxy, col="#6816b599", border=FALSE)
-text(-937, 0.81*maxy, "Dohrmann 2017 MC", pos=2)
+text(-885, 0.815*maxy, "Dohrmann 2017 MC", pos=2)
 rect(meta_lca_dosreis[1],   0.84*maxy, meta_lca_dosreis[2],   0.87*maxy, col="#6816b599", border=FALSE)
 text(-833, 0.855*maxy, "Dos Reis 2015 MC", pos=2)
 rect(meta_lca_erwin[1],   0.88*maxy, meta_lca_erwin[2],   0.91*maxy, col="#6816b599", border=FALSE)

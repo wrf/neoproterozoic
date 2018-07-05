@@ -1,7 +1,7 @@
 
 
 
-meta_lca_mids = c(-850, -750, -780, -795)
+meta_lca_mids = c(-814, -750, -780, -795)
 
 rhodo_lca_mids = c(-783, -765, -780)
 
@@ -92,10 +92,10 @@ text(-475, 5.5, "Modern\nrange", cex=1.1, pos=2, col="#000000")
 
 ### DRAW MOLECULAR CLOCK
 
-rect(-937, 0.95*maxy, -649, 1.0*maxy, col="#6816b599", border=FALSE)
+rect(-885, 0.95*maxy, -649, 1.0*maxy, col="#6816b599", border=FALSE)
 points(meta_lca_mids, rep(c(9.75),4), pch=5, col="#6816b5",cex=1.2, lwd=2)
 #text(-980, 1.0*maxy, "Crown-group animal MC", col="#6816b5", cex=1.1, pos=4)
-text(-937, 0.975*maxy, "Metazoans", cex=1.1, pos=4)
+text(-885, 0.975*maxy, "Metazoans", cex=1.1, pos=2)
 rect(-929, 8.75, -600, 9.250, col="#bc3c0a99", border=FALSE)
 points(rhodo_lca_mids, rep(c(9.0),3), pch=5, col="#bc3c0a",cex=1.2, lwd=2)
 #text(-980, 0.90*maxy, "Crown-group Florideophytes MC", col="#bc3c0a", cex=1.1, pos=4)
